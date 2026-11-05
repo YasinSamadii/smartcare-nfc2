@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { direction: rtl; font-family: 'Vazirmatn', Tahoma, sans-serif; background-color: #F4F8FB; }
+.glass-panel { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(220, 229, 235, 0.85); box-shadow: 0 12px 32px -8px rgba(6, 57, 78, 0.08); }
+@keyframes roaviFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.roavi-float { animation: roaviFloat 3s ease-in-out infinite; }
